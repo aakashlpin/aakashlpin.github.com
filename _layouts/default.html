@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+	<title>Aakash Goel | {{page.title}}</title>
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="/favicon.ico">
+
+    <meta name="apple-mobile-web-app-title" content="aakashgoel">
+    <meta name="description" content="Personal blog of Aakash Goel">
+	
+	<script type="text/javascript" src="//use.typekit.net/jqm7yvf.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>	
+</head>
+<body>
+	<div class=container>
+		<aside class=sidebar>
+			<section id=bio>
+				<h1 class=h2><a href="/">Aakash Goel</a></h1>
+				<p>I am a User Interface Developer based in Bangalore. I <span class="number">cycle</span> to work, play <span class="number">guitar</span> after <span class="number">work</span> and can be often found in a <span class="number">pub</span>. Sometimes, I <span class="number">blog</span>.</p>
+			</section>
+			
+			<hr>
+			
+			<section id=social-links>
+				<h2>Social Presence</h2>
+				<ul class="inline social">
+					<li class="social-facebook"><a href="https://www.facebook.com/aakash.lpin">Facebook</a></li>
+					<li class="social-twitter"><a href="https://twitter.com/aakashlpin">Twitter</a></li>
+					<li class="social-github"><a href="https://github.com/aakashlpin">Github</a></li>
+					<li class="social-stackoverflow"><a href="http://stackoverflow.com/users/721084/aakash-goel">StackOverFlow</a></li>
+					<li class="social-youtube"><a href="http://www.youtube.com/playlist?list=PLF19C3E5BC5119C17">Youtube</a></li>
+					<li class="social-linkedin"><a href="http://www.linkedin.com/pub/aakash-goel/19/614/70a">LinkedIn</a></li>
+				</ul>
+				
+			</section>
+			
+			<hr class="pivot">
+			
+			<section class=posts>
+				<h2>Blabber</h2>
+				<ul class="l-v-list" id=old-posts>
+				{% for post in site.posts %}
+					{% if post.published != false %}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+			</section>
+			
+		</aside>
+		
+		{{ content }}
+				
+		<div id="twitter-feed" class="sticky-footer">
+			<span class="sans class-for-14px">You should</span>
+			<a href="https://twitter.com/aakashlpin" class="twitter-follow-button" data-show-count="true">
+				Follow @aakashlpin
+			</a>
+			
+		</div>
+		
+	</div>
+	
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/primary.js"></script>
+
+<!-- Ignore. Google Analytics Stuff. -->
+
+<script type="text/javascript">
+	
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21262700-1']);
+  _gaq.push(['_setDomainName', 'aakashgoel.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

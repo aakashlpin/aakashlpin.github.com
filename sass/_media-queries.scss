@@ -1,0 +1,14 @@
+$up-end 	: 1000px;
+$low-end 	: 600px;
+
+@mixin breakpoint($point) {
+	@if $point == desk {
+		@media only screen and (min-width: $up-end) { @content; }
+	}
+	@else if $point == mid {
+		@media only screen and (min-width: $low-end) and (max-width: $up-end) { @content; }
+	}
+	@else if $point == handheld {
+		@media only screen and (max-width: $low-end) { @content; }
+	}
+}

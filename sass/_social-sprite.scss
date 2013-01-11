@@ -1,0 +1,12 @@
+@import "social/*.png";
+@include all-social-sprites;
+
+.social {
+	margin-bottom: 2em;
+}
+
+.social > li {
+	text-indent: -9999px;
+	height: 26px;
+	width: 26px;
+}

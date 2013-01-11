@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+---
+
+{% for post in site.posts limit:1 %}
+	
+	<article class="prime-content post">
+	<h1>{{ post.title }}</h1>
+	<h4 class="h4">Posted on {{ post.date | date: '%A'}}, {{ post.date | date: "%d %b %Y" }}.</h4>
+		
+	{{ post.content }}
+
+</article>
+
+{% endfor %}

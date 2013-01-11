@@ -1,0 +1,243 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "zen";
+@import "variables";
+@import "social-sprite";
+@import "media-queries";
+
+/***********************************************/
+/*					GRID: ;		   			   */
+/***********************************************/
+
+.container {
+	padding: 10px 10px 0 10px;
+	@include breakpoint(desk) {
+		$zen-column-count: 7;
+		$zen-gutter-width: 40px;
+		@include zen-grid-container;
+		padding: 75px 0 40px 0;
+	}
+	@include breakpoint(mid) {
+		$zen-column-count: 7;
+		$zen-gutter-width: 30px;
+		@include zen-grid-container;
+		padding: 30px 0 40px 0;
+	}
+}
+.sidebar {
+	@include breakpoint(desk) {
+		@include zen-grid-item(3,1);
+	}
+	@include breakpoint(mid) {
+		@include zen-grid-item(3,1);
+	}
+}
+.prime-content {	
+	@include breakpoint(desk) {
+		@include zen-grid-item(4,4);
+	}
+	@include breakpoint(mid) {
+		@include zen-grid-item(4,4);
+	}
+
+}
+.sticky-footer {
+	position: fixed;
+	bottom: 0; left: 0; right: 0;
+	width: 100%;
+	text-align: center;
+	background: #ccc;
+	@include background-image(linear-gradient(top, #f2f2f2, #cccccc));
+	padding: 10px;
+}
+
+/***********************************************/
+/*					MODULES		   			   */
+/***********************************************/
+
+._inline-block {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;	
+}
+
+ul.inline > li {
+	padding: 0 10px 0 0;
+	@extend ._inline-block;
+	&:last-child {
+		padding: 0;
+	}
+}
+
+ul.l-v-list > li {
+	margin-bottom: 15px;
+}
+
+.social a {
+	display: block;
+	height: 36px; width: 26px;
+	margin: 0;
+}
+/***********************************************/
+/*					TYPOGRAPHY   			   */
+/***********************************************/
+
+body {
+	background: #f2f2f2 url(../images/noise.png) fixed;
+	font-family: "utopia-std",serif;
+	font-size: 16px;
+	color: $secondary-color;
+}
+
+@for $i from 1 through 4 {
+	h#{$i}, .h#{$i} {
+		font-family: "crete-rounded-web",serif;
+		font-weight: 400;
+	}
+}
+
+h1, .h1 {
+	@extend .class-for-24px;
+	color: $primary-color;
+	//text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+}
+
+h2, .h2 {
+	@extend .class-for-22px;
+	color: $primary-color;
+}
+
+h3, .h3 {
+	@extend .class-for-18px;
+}
+
+h4, .h4 {
+	@extend .class-for-14px;
+	font-style: italic;
+}
+
+h5, .h5 {
+	@extend .class-for-12px;
+}
+
+p {
+  font-size: 1em; /* 16px */
+  line-height: 1.5em; /* 24px */
+  margin: 1.5em 0 1.5em 0;
+}
+
+.class-for-24px {
+  font-size: 1.5em; /* 24px */
+  line-height: 1em; /* 24px */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.class-for-22px {
+  font-size: 1.375em; /* 22px */
+  line-height: 1.0909em; /* 24px */
+  margin-top: 1.0909em;
+  margin-bottom: 1.0909em;
+}
+
+.class-for-18px {
+  font-size: 1.125em; /* 18px */
+  line-height: 1.3333em; /* 24px */
+  margin-top: 1.3333em;
+  margin-bottom: 1.3333em;
+}
+
+.class-for-16px {
+  font-size: 1em; /* 16px */
+  line-height: 1.5em; /* 24px */
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+
+.class-for-14px {
+  font-size: 0.875em; /* 14px */
+  line-height: 1.7143em; /* 24px */
+  margin-top: 1.7143em;
+  margin-bottom: 0em;
+}
+
+.class-for-12px {
+  font-size: 0.75em; /* 12px */
+  line-height: 2em; /* 24px */
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
+
+.number {
+	color: $primary-color;
+}
+
+em {
+	font-style: italic;
+	font-weight: 600;
+}
+
+.sans {
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+strong {
+	@extend .h3;
+}
+/***********************************************/
+/*					TAG LEVEL   			   */
+/***********************************************/
+
+a {
+	text-decoration: none;
+	color: $primary-color;
+	border-bottom: 1px solid rgba(11, 97, 164, 0.1);
+	@include transition(all 0.15s linear);
+	@extend .class-for-16px;
+	&:hover, &.selected {
+		border-bottom: 1px solid rgba(11, 97, 164, 1);
+	}
+}
+
+#bio p {
+	@include breakpoint(desk) {
+		padding-right: 100px;	
+	}
+	@include breakpoint(mid) {
+		padding-right: 40px;
+	}
+
+}
+
+.post {
+	@include breakpoint(desk) {
+		width: 550px;
+	}
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: auto;
+}
+
+iframe {
+	vertical-align: middle;
+}
+
+/***********************************************/
+/*					FUCKERY: ;   			   */
+/***********************************************/
+
+
+.sidebar.fixed {
+	position: fixed;
+	left: 0;
+}
+
+.mr {
+	margin: 0 15px 0 0;
+}
