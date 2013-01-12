@@ -6,8 +6,6 @@ $(document).ready(function(){
 		$breakPoint 	= 600;
 	
 	$(window).on('scroll', function() {
-		console.log($screenWidth);
-		console.log($breakPoint);
 		if ($screenWidth >= $breakPoint) {
 			if ( $(window).scrollTop() >= $pos) {
 					$(".sidebar").addClass("fixed").css({
