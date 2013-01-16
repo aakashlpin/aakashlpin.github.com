@@ -14,7 +14,7 @@ Having the option of working from home is one thing that makes you want to work 
 
 I hadn't ever made one. Youtube to [rescue](http://www.youtube.com/watch?v=27BigIWxMMw "How to make an omelette"). Onions, Tomato, Eggs and Bread. Suggested plenty of times to my mum to cut onions under water, but forgot myself and that pitiless onion made me cry. Tomato is the worst fruit ever. Broke the first egg on the edge of the glass only to land half in glass and half on the kitchen floor. Next 2 eggs thankfully decided to empty themselves in glass. Butter, oil on the heated pan and I poured yolk on the pan. That noice was exciting! The feeling I have when I bootstrap my projects and see them for the first time in browser. Yeah, that feeling! Heck, even better.
 
-A collegue had narrated his story few months back on how difficult it was for him to turn over the omelette on the pan. I was confident that I would nail it. But, hell no. That was difficult. Couldn't do that neatly enough. But who are we kidding, this was the first time I had used a frying pan.
+A colleague had narrated his story few months back on how difficult it was for him to turn over the omelette on the pan. I was confident that I would nail it. But, hell no. That was difficult. Couldn't do that neatly enough. But who are we kidding, this was the first time I had used a frying pan.
 
 ![The best in town Omelette ever made](/images/posts/omelette.jpg "The best in town Omelette ever made")
 
