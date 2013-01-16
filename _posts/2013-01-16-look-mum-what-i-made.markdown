@@ -16,6 +16,6 @@ I hadn't ever made one. Youtube to [rescue](http://www.youtube.com/watch?v=27Big
 
 A collegue had narrated his story few months back on how difficult it was for him to turn over the omelette on the pan. I was confident that I would nail it. But, hell no. That was difficult. Couldn't do that neatly enough. But who are we kidding, this was the first time I had used a frying pan.
 
-![The best in town Omelette ever made](images/posts/omelette.jpg "The best in town Omelette ever made")
+![The best in town Omelette ever made](/images/posts/omelette.jpg "The best in town Omelette ever made")
 
 This missed the best omelette I'd ever had by a pinch of salt. But, fuck yeah. I'll give it a 9/10. Perfect 10 if I had put salt in it.
