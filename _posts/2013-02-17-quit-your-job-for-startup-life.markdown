@@ -17,7 +17,7 @@ Lets go through the list because I would like to document meeting each person I 
 
 ![Meetup with Joe Gebbia, Founder, Airbnb](/images/posts/Airbnb.jpg "Spot me")
 
-Then happened the Techcrunch meetup in Vivanta by Taj where a chosen few companies from UK pitched in with there products. The idea was for them to partner with Indian market and try to get some funding out of VCs in the panel. The meetup was amazing. I personally got a chance to spend a good 20 minute time with [Nigel Chadwick](http://www.stream-communications.com/our-staff/nigel-chadwick-director.html), the Director at [Stream](http://www.stream-communications.com/). Also got a chance to get introduced to a few iconic figures in the tech industry including [Sriram V Iyer](http://www.linkedin.com/in/sviyer) from United Mobile Apps, [Alok Bhardwaj](in.linkedin.com/in/hiddenreflex/), founder at Hidden Reflex.
+Then happened the Techcrunch meetup in Vivanta by Taj where a chosen few companies from UK pitched in with there products. The idea was for them to partner with Indian market and try to get some funding out of VCs in the panel. The meetup was amazing. I personally got a chance to spend a good 20 minute time with [Nigel Chadwick](http://www.stream-communications.com/our-staff/nigel-chadwick-director.html), the Director at [Stream](http://www.stream-communications.com/). Also got a chance to get introduced to a few iconic figures in the tech industry including [Sriram V Iyer](http://www.linkedin.com/in/sviyer) from United Mobile Apps.
 
 The eSparks event organised by YourStory on the e-Commerce market in India was something we at MineWhat were looking forward to. We got few pamphlets and business cards printed.
 
