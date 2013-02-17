@@ -21,10 +21,10 @@ Then happened the Techcrunch meetup in Vivanta by Taj where a chosen few compani
 
 The eSparks event organised by YourStory on the e-Commerce market in India was something we at MineWhat were looking forward to. We got few pamphlets and business cards printed.
 
-![Business Card](https://www.dropbox.com/s/63dsnfeva5zzh7l/2013-02-15%2020.17.39.jpg "Business Card")
+![Business Card](/images/posts/business_card.jpg "Business Card")
 
 We went in full branding and were better in presentation that the whole Yourstory team combined. Here's the proof.
 
-![Team pic](https://www.dropbox.com/s/dhgiuc7h1t9c6lq/2013-02-16%2017.16.42.jpg "Left to Right: Vikram, Ram and Aakash")
+![Team pic](/images/posts/team_minewhat.jpg "Left to Right: Vikram, Ram and Aakash")
 
 It feels good to be part of the startup community and building from the ground up. Sharing common ideas and networking in events like these is amazing. Looking forward to times to come. Cheers!
