@@ -3,7 +3,8 @@ $(document).ready(function(){
 /* Toggling fixed sidebar based on scroll position*/
 	var $pos 			,
 		$screenWidth 	,
-		$breakPoint 	= 600;
+		$breakPoint 	= 600,
+		$posts 			= $(".posts");
 	
 	$(window).on('scroll', function() {
 		if ($screenWidth >= $breakPoint) {
@@ -34,10 +35,12 @@ $(document).ready(function(){
 	
 	function DOMManipulate(screenWidth) {
 		if (screenWidth < $breakPoint) {
-			$(".posts").insertAfter(".prime-content");
+			$posts.insertAfter(".prime-content");
 		} else {
-			$(".posts").appendTo(".sidebar");
+			$posts.appendTo(".sidebar");
 		}
+
+		$posts.fadeIn(500);
 	}
 		
 });
