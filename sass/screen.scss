@@ -10,7 +10,7 @@
 /***********************************************/
 
 .container {
-	padding: 10px 10px 0 10px;
+	padding: 10px 10px 40px 10px;
 	@include breakpoint(desk) {
 		$zen-column-count: 7;
 		$zen-gutter-width: 40px;

@@ -96,7 +96,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*					GRID: ;		   			   */
 /***********************************************/
 .container {
-  padding: 10px 10px 0 10px;
+  padding: 10px 10px 40px 10px;
 }
 @media only screen and (min-width: 1000px) {
   .container {
