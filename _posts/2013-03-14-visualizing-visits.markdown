@@ -8,7 +8,7 @@ categories:
 - Technology
 ---
 
-Recently I got a chance to play around with a Mike Bostock's [D3 JS](https://github.com/mbostock/d3) and [Leaflet JS](http://leafletjs.com) as I had to implement a geo visualization at MineWhat. This is what I achieved in a couple of days with no prior experience of handling geographical data via javascript.
+Recently I got a chance to play around with Mike Bostock's [D3 JS](https://github.com/mbostock/d3) and [Leaflet JS](http://leafletjs.com) as I had to implement a geo visualization at MineWhat. This is what I achieved in a couple of days with no prior experience of handling geographical data via javascript.
 
 [![Visualizing Visits on aakashgoel.com since 1/1/11](/images/posts/visits.png "Visualizing Visits on aakashgoel.com since 1/1/11")](/images/posts/visits.png)
 
