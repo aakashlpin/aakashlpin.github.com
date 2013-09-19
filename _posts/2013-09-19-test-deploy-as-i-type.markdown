@@ -9,4 +9,4 @@ categories:
 ---
 
 Testing deploying as I create/edit/delete for live blogging at jsfoo tomorrow!
-Go!
+Go! Dang! I forgot git push in first go!
