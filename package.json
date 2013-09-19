@@ -1,0 +1,10 @@
+{
+  "name": "aakashlpin.github.com",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-git": "~0.1.5",
+    "grunt-git-deploy": "~0.1.1"
+  }
+}
