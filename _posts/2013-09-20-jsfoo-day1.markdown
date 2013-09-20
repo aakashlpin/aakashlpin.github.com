@@ -25,3 +25,5 @@ Robert Nyman talks about Firefox OS, Open web apps.
 <3 Firefox API's. Now that speaks about the future.
 
 @NetRoY talks about FrontEnd Devops
+
+1. Wifi disappoints. Back to tethering.
