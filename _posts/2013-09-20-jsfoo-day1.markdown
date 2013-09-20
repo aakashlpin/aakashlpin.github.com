@@ -10,4 +10,4 @@ categories:
 
 Biked 20 kms to the venue. with @pheonixwizard.
 
-Robert Nyman talks about Firefox OS.
+Robert Nyman talks about Firefox OS, Open web apps.
