@@ -23,3 +23,5 @@ Robert Nyman talks about Firefox OS, Open web apps.
 8. Firefox Marketplace turns out to be exactly like Android's. Put the app up on official marketplace or sell it via your website.
 
 <3 Firefox API's. Now that speaks about the future.
+
+@NetRoY talks about FrontEnd Devops
