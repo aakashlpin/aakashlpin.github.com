@@ -17,3 +17,6 @@ Robert Nyman talks about Firefox OS, Open web apps.
 3. Mozilla Battery API can tell you the levelchange, chargingchange, timetocharge et all. Phew!
 4. Frack. Lock the orientation using Javascript API.
 5. Vibration API. Use it for whatever purpose you find useful ;)
+    `navigator.vibrate(5000)`
+
+
