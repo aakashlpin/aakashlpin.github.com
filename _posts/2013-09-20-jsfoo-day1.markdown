@@ -26,4 +26,6 @@ Robert Nyman talks about Firefox OS, Open web apps.
 
 @NetRoY talks about FrontEnd Devops
 
-1. Wifi disappoints. Back to tethering. Which Disappoints as well. 
+1. Wifi disappoints. Back to tethering. Which Disappoints as well. Bored.
+
+Use jshint git prehook to lint before anyone can commit
