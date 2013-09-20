@@ -8,6 +8,6 @@ categories:
 - JSFoo
 ---
 
-Biked 20 kms to the venue. with @pheonixwizard.
+Biked 20 kms to the venue. with @phoenixwizard.
 
 Robert Nyman talks about Firefox OS, Open web apps.
