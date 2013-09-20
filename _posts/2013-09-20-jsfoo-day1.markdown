@@ -28,4 +28,8 @@ Robert Nyman talks about Firefox OS, Open web apps.
 
 1. Wifi disappoints. Back to tethering. Which Disappoints as well. Bored.
 
-Use jshint git prehook to lint before anyone can commit
+2. Use jshint git prehook to lint before anyone can commit
+
+3. To sync across mutiple servers, upload to master server and let all others rsync the changes.
+4. twitter's Murder/bittorent
+5. upload to a S3 bucket and trigger a s3cmd sync on all machines.
