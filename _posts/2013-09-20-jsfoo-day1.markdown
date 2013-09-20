@@ -1,0 +1,13 @@
+---
+date: 2013-09-20 09:44:00
+layout: post
+slug: jsfoo-day1
+title: JSFoo Day 1
+published: true
+categories:
+- JSFoo
+---
+
+Biked 20 kms to the venue. with @pheonixwizard.
+
+Robert Nyman talks about Firefox OS.
