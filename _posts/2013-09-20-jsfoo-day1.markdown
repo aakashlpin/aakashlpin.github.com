@@ -19,5 +19,5 @@ Robert Nyman talks about Firefox OS, Open web apps.
 5. Vibration API. Use it for whatever purpose you find useful ;)
     `navigator.vibrate(5000)`
 6. `visibilitychange` event => is the app under focus?
-
+7. Firefox OS previledge apps do not suffer CORS. Wow!
 
