@@ -20,4 +20,5 @@ Robert Nyman talks about Firefox OS, Open web apps.
     `navigator.vibrate(5000)`
 6. `visibilitychange` event => is the app under focus?
 7. Firefox OS previledge apps do not suffer CORS. Wow!
+8. Firefox Marketplace turns out to be exactly like Android's. Put the app up on official marketplace or sell it via your website.
 
