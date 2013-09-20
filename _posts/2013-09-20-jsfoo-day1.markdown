@@ -18,5 +18,6 @@ Robert Nyman talks about Firefox OS, Open web apps.
 4. Frack. Lock the orientation using Javascript API.
 5. Vibration API. Use it for whatever purpose you find useful ;)
     `navigator.vibrate(5000)`
+6. `visibilitychange` event => is the app under focus?
 
 
